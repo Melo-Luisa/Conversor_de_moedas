@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/javascript.js" defer></script>
+    <title>Conversor de Moeda</title>
+    <link rel="icon" href="./pilha-de-moedas.png">
+</head>
+<body>
+    
+    <div class="container">
+        <h1 class="page-title">
+        Conversor de moedas
+        </h1>
+        <img  src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-aluraflix.svg" class="page-logo" alt="">
+    </div>
+    <a href="https://alura.com.br/" target="_blank">
+        <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
+        <img src="https://caelum-online-public.s3.amazonaws.com/assets-imersaodev/Convers%C3%A3o+1.png">
+    </a>
+
+    
+    <div class="conversor">
+        <h3>Insira o valor:</h3>
+        <input type="text" id="valores">
+        <input type="button" name="converter" id="converter" value="converter">
+    </div>
+   <div>
+        <h3>Escolha a moeda:</h3>
+        <input type="radio" name="base" id="dolar">Dolar
+        <input type="radio" name="base" id="euro">Euro
+        <input type="radio" name="base" id="libra">Libra
+   </div>
+    <div class="result">
+        <h3>Valor em Real:</h3>
+        <div id="valorFinal"></div>
+    </div>
+   
+</body>
+</html>
